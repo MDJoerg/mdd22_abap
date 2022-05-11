@@ -28,16 +28,16 @@ define view ZI_MDD_VDMF_FSchedule
       ArrivalTime,
       DaysLater,
       // flight information
-      FlightTime,
+      cast(FlightTime as zmdd_flight_time) as FlightTime,                       // OData Error CONVERSION_EXIT_SDURA_OUTPUT
       DistanceKM,
-      FLTP_TO_DEC(DistancePerHour as zmdd_distance_km_per_h) as DistanceKMH,
+      FLTP_TO_DEC(DistancePerHour as zmdd_distance_km_per_h) as DistanceKMH,    // Better Output - Float to Dec
       FlightIsCharter,
       // additional Information
       cast(case
         when FlightTime <= 120 then 'S'
         when FlightTime > 360 then 'L'
         else 'M'
-        end as zmdd_flight_distance_type)                    as FlightType,
+        end as zmdd_flight_distance_type)                    as FlightType,     // Special calculation for filtering
       // Associations
       _Carrier,
       _AirportFrom,
