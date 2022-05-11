@@ -5,6 +5,7 @@
    <URL>/sap/bc/apc/sap/zmdd_wsps_apc/</URL>
    <ICFSERVICE>
     <ICF_NAME>ZMDD_WSPS_APC</ICF_NAME>
+    <ICFALIASNO>1</ICFALIASNO>
     <ORIG_NAME>zmdd_wsps_apc</ORIG_NAME>
    </ICFSERVICE>
    <ICFDOCU>

@@ -5,6 +5,7 @@
    <URL>/sap/opu/odata/sap/zmdd_odgw_srv/</URL>
    <ICFSERVICE>
     <ICF_NAME>ZMDD_ODGW_SRV</ICF_NAME>
+    <ICFALIASNO>1</ICFALIASNO>
     <ORIG_NAME>zmdd_odgw_srv</ORIG_NAME>
     <ICFALTNME>ZMDD_ODGW_SRV</ICFALTNME>
    </ICFSERVICE>
