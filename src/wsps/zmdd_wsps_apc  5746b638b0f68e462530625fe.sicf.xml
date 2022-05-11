@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/apc/sap/zmdd_wsps_apc/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>ZMDD_WSPS_APC</ICF_NAME>
+    <ICFALIASNO>1</ICFALIASNO>
+    <ORIG_NAME>zmdd_wsps_apc</ORIG_NAME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>ZMDD_WSPS_APC</ICF_NAME>
+    <ICF_LANGU>D</ICF_LANGU>
+    <ICF_DOCU>Generierter APC-WebSocket-Protokollservice</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>
